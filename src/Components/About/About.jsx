@@ -26,11 +26,16 @@ const About = () => {
           <div className='about--span' data-aos="fade-up"
         data-aos-duration="1000">
             <span>
-              Hello, I'm Taiwo Enoch a highly skilled Software Developer specializing in JavaScript, React, Ruby, and Ruby on Rails. With an accelerated learning curve, I've gained 2 years' worth of experience in just 1 year, enabling me to excel in crafting robust web applications. My strength lies in thriving within collaborative environments, where I leverage my exceptional communication skills to consistently deliver outstanding results.
-
-              My proficiency extends to backend development with Ruby, and I take pride in creating engaging user interfaces using JavaScript and React. My expertise covers the entire development lifecycle, from the initial concept to seamless deployment. I place a premium on producing clean, maintainable code, adhering strictly to best practices and embracing test-driven development principles.
-
-              My adaptability shines through as I readily embrace agile methodologies, ensuring that I can meet evolving requirements and consistently deliver high-quality software solutions. I'm perpetually seeking fresh challenges and opportunities that allow me to combine my passion for acquiring new knowledge with my innate ability to solve complex problems. If you're interested in collaborating or have any inquiries, please feel free to reach out to me I'm eager to explore potential partnerships and answer any questions you may have!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque reiciendis voluptatibus qui quia inventore, 
+              error sed, velit, adipisci maiores rem dicta voluptates odit animi similique aliquam? Molestias temporibus neque 
+              perspiciatis, corporis amet tempora, sint, totam laborum quae fugiat magni perferendis voluptate culpa dolorem a 
+              quibusdam expedita accusamus error tenetur accusantium repudiandae impedit eius eum non. Incidunt, illum itaque vero 
+              repellat, quisquam corporis quidem corrupti officiis recusandae earum eos alias modi blanditiis non esse mollitia rem 
+              inventore laudantium. Fuga quo in iusto rem! Quisquam veniam ipsa eveniet possimus ab accusamus repudiandae voluptates hic.
+               Dolorum, quas veniam. Cupiditate, magnam. Facilis dolorem nobis temporibus delectus! Deserunt error consequuntur a eligendi 
+               veritatis! Ducimus temporibus minus nisi unde? Ut ipsa minima iure ipsum eligendi iusto vero ea odio deleniti, eius porro 
+               mollitia illo inventore optio iste totam cum quos veritatis? At non fugit fuga eaque voluptate ut quasi nemo, fugiat 
+               mollitia. Ullam adipisci quibusdam harum!
             </span>
             <div>
               <button className='button btn-about'>Let's have a chat</button>
