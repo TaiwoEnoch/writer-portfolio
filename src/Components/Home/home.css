@@ -1,0 +1,67 @@
+#home {
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    height: auto;
+    justify-items: center;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.home--container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.left--div span {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.left--div p {
+    max-width: 750px;
+    line-height: 2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(16, 182, 243);
+    color: #fff;
+    font-size: 16px;
+}
+
+.HomeImage img {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    color: rgb(16, 182, 243);
+}
+
+@media screen and (max-width: 768px) {
+    .home--container {
+        flex-wrap: wrap;
+    }
+
+    .home--container {
+        gap: 30px
+    }
+
+    .left--div p {
+        font-size: 30px;
+        line-height: 2.6rem;
+    }
+
+    .left--div button {
+        font-size: 27px;
+    }
+}

@@ -1,0 +1,115 @@
+#contact {
+  width: 100vw;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background: rgb(16, 182, 243);
+}
+
+.main--form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.title {
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.main--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input::placeholder {
+  color: rgb(16, 182, 243);
+}
+
+.input {
+  padding: 12px 5px;
+  border: 2px solid rgb(16, 182, 243);
+  border-radius: 15px;
+}
+
+
+.btn_container {
+  color: rgb(16, 182, 243);
+  background-color: #fff;
+  padding: 12px 18px;
+  border-radius: 4px;
+  margin-top: 3px;
+  transition: 0.2s ease-in-out;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+}
+
+.btn_hover,
+.btn {
+  transition: all 0.2s ease-out;
+}
+
+.btn_hover {
+  top: 12px;
+  left: 18px;
+  opacity: 0;
+  transform: translate(0, -100%);
+}
+
+.btn_container:hover,
+.btn_container:focus {
+  box-shadow: 0 0 8px rgb(15, 29, 35);
+}
+
+.btn_container:hover .btn,
+.btn_container:focus .btn {
+  opacity: 0;
+  transform: translate(0, 100%);
+}
+
+.btn_container:hover .btn_hover,
+.btn_container:focus .btn_hover {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.error {
+  display: none;
+}
+
+.success-message {
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #6f7c82;
+}
+
+.error-message {
+  color: red;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgb(158, 227, 254);
+}
+
+@media screen and (max-width: 768px) {
+  .main--container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,113 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  align-items: center;
+  background-color: rgb(16, 182, 243);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.my-logo {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav--links {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav--links:hover {
+  border-bottom: 2px solid #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100vw;
+    align-items: flex-end;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .navigation {
+    padding: 20px 20px;
+  }
+
+  .menu.open {
+    display: flex;
+    opacity: 1;
+    background: rgba(238, 242, 244, 0.71);
+    opacity: 100;
+    height: 100vh;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 15px 70px 50rem 35px;
+    gap: 30px;
+    border-radius: 10px 0 0 0;
+    background: rgb(16, 182, 243);
+  }
+
+  .menu li {
+    font-size: 1.4rem;
+  }
+
+  .nav--links {
+    border-bottom: 3px solid #efeaea;
+  }
+
+  .nav--links:hover {
+    background-color: #fff;
+    color: #000;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+
+  .hamburger {
+    display: flex;
+    font-size: 1.7rem;
+  }
+}

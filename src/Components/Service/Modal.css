@@ -1,0 +1,63 @@
+.modal {
+  max-width: 90vw;
+  margin: auto;
+}
+
+.modal-content {
+  max-width: 90vw;
+}
+
+.blogImg {
+  width: 100%;
+  height: 100px;
+}
+
+.service--title {
+  display: inline-block;
+  background-color: rgb(16, 182, 243);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.see-btn {
+  margin-top: 5px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(16, 182, 243);
+  color: #fff;
+}
+
+.see-btn:hover,
+.see-btn:focus {
+  box-shadow: 0 0 8px rgb(48, 59, 64);
+}
+
+.see-btn:hover .btn,
+.see-btn:focus .btn {
+  opacity: 0;
+  transform: translate(0, 100%);
+}
+
+.see-btn:hover .btn_hover,
+.see-btn:focus .btn_hover {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.paragraph {
+  padding: 10px 15px;
+  border: 2px solid rgb(16, 194, 253);
+  box-shadow: 0 9px 8px rgb(16, 182, 243);
+  color: hwb(0 4% 96%);
+}
+
+.paragraph:hover
+.paragraph:focus {
+  background: transparent;
+  border: 2px solid rgb(16, 182, 243);
+  color: #000;
+}
