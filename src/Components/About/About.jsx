@@ -35,7 +35,7 @@ const About = () => {
                Dolorum, quas veniam. Cupiditate, magnam. Facilis dolorem nobis temporibus delectus! Deserunt error consequuntur a eligendi 
                veritatis! Ducimus temporibus minus nisi unde? Ut ipsa minima iure ipsum eligendi iusto vero ea odio deleniti, eius porro 
                mollitia illo inventore optio iste totam cum quos veritatis? At non fugit fuga eaque voluptate ut quasi nemo, fugiat 
-               mollitia. Ullam adipisci quibusdam harum!
+               mollitia. Ullam adipisci quibusdam harum    Ullam adipisci quibusdam harum!
             </span>
             <div>
               <button className='button btn-about'>Let's have a chat</button>
