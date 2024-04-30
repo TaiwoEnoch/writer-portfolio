@@ -21,7 +21,13 @@
 
 .about--header {
   padding-bottom: 20px;
-  color: rgb(16, 182, 243);
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  background-color: #172551;
+  padding: 12px 20px;
+  border-radius: 20px;
+  margin-bottom: 8px;
 }
 
 .about--image {
@@ -32,6 +38,7 @@
 .about--span {
   max-width: 55%;
   line-height: 2rem;
+  color: #cdcdcd;
 }
 
 .about--header {
@@ -51,9 +58,17 @@
     gap: 20px;
   }
 
+  .home--paragraph {
+    font-size: 1.4rem;
+  }
+
   .about--image {
     width: 100%;
     height: auto;
+  }
+
+  .about--header {
+    font-size: 28px;
   }
 
   .about--span {

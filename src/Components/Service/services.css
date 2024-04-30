@@ -14,10 +14,11 @@
 .service-heading {
   color: #fff;
   text-align: center;
-  padding: 50px 30px;
   margin-bottom: 3rem;
-  background-color: rgb(16, 182, 243);
-  font-size: 24px;
+  background: #172551;
+  font-size: 45px;
+  padding: 1rem;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 768px) {

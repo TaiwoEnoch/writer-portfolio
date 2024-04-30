@@ -4,8 +4,14 @@
   box-sizing: border-box;
   font-family: 'Calibre', 'Inter', 'Poppins', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
   scroll-behavior: smooth;
-  /* background-color: rgb(216, 235, 241) */
+  /* color: #fff; */
 }
+
+body {
+  background-color: #030d2e; 
+}
+
+
 
 ::-webkit-scrollbar {
   width: 8.5px;
@@ -134,7 +140,7 @@
   background-position: 0 2px, 4px 35px, 29px 31px, 34px 6px;
 } */
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .slick-prev::before,
   .slick-next::before {
     font-size: 1.8rem !important;
@@ -149,4 +155,4 @@
     padding: 10px 12px 14px 12px;
     top: -52px !important;
   }
-} */
+}

@@ -3,7 +3,7 @@
   height: auto;
   padding-top: 5rem;
   padding-bottom: 2rem;
-  background: rgb(16, 182, 243);
+  background: #172551;
 }
 
 .main--form {
@@ -88,6 +88,11 @@
 .btn_container:focus .btn_hover {
   opacity: 1;
   transform: translate(0, 0);
+}
+
+.input,
+.textarea:focus {
+  outline: none;
 }
 
 .error {

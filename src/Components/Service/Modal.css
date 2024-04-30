@@ -14,11 +14,11 @@
 
 .service--title {
   display: inline-block;
-  background-color: rgb(16, 182, 243);
+  background-color: #fff;
   padding: 10px 20px;
   margin-bottom: 10px;
   border-radius: 8px;
-  color: #fff;
+  color: #000;
 }
 
 .see-btn {
@@ -27,13 +27,13 @@
   border-radius: 5px;
   border: none;
   font-size: 16px;
-  background-color: rgb(16, 182, 243);
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .see-btn:hover,
 .see-btn:focus {
-  box-shadow: 0 0 8px rgb(48, 59, 64);
+  box-shadow: 0 0 8px rgb(27, 29, 30);
 }
 
 .see-btn:hover .btn,
@@ -50,14 +50,14 @@
 
 .paragraph {
   padding: 10px 15px;
-  border: 2px solid rgb(16, 194, 253);
-  box-shadow: 0 9px 8px rgb(16, 182, 243);
-  color: hwb(0 4% 96%);
+  border: 2px solid rgb(232, 238, 241);
+  box-shadow: 0 9px 8px rgb(227, 236, 239);
+  color: hwb(0 100% 0%);
 }
 
 .paragraph:hover
 .paragraph:focus {
   background: transparent;
   border: 2px solid rgb(16, 182, 243);
-  color: #000;
+  color: #fff;
 }

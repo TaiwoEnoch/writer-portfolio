@@ -8,9 +8,10 @@
 
 .port--heading {
   color: #fff;
+  background: #172551;
   text-align: center;
-  padding: 50px 30px;
   margin-bottom: 3rem;
-  background-color: rgb(16, 182, 243);
-  font-size: 24px;
+  padding: 1rem;
+  font-size: 28px;
+  border-radius: 25px;
 }

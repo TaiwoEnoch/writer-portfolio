@@ -16,13 +16,14 @@
 }
 
 .review--container span {
-  font-size: 24px;
-  color: rgb(101, 192, 222);
+  font-size: 30px;
+  color: #fff;
 }
 
 .review--container p {
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 400;
+  color: #fff;
 }
 
 .testimonial--container {
@@ -36,7 +37,7 @@
 .client-name {
   text-align: center;
   font-size: 20px;
-  color: rgb(117, 186, 211);
+  color: #fff;
   padding-bottom: 10px;
 }
 
@@ -44,14 +45,13 @@
   max-width: 600px;
   line-height: 1.5rem;
   padding: 20px 15px;
-  background-color: rgba(119, 212, 245, 0.076);
   border: 1.5px solid rgb(101, 192, 222);
 }
 
 .test--grid {
   background: transparent;
   border-color: rgb(101, 192, 222);
-  cursor: default;
+  cursor: pointer;
 }
 
 .testimonial--navigation {
@@ -60,13 +60,18 @@
   max-width: 600px;
 }
 
+.client-review {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
 .testimonial--navigation button {
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  background-color: rgb(16, 182, 243);
-  color: #fff;
-  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  font-size: 24px;
   cursor: pointer;
 }
 
