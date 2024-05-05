@@ -1,13 +1,25 @@
-import React from 'react'
+import { useState } from 'react'
 import stella from '../constants/stella.jpg';
 
 import './about.css';
+import PopupContact from '../PopupContact/PopupContact';
 
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const About = () => {
+
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+    const togglePopup = () => {
+        setPopupOpen(!isPopupOpen);
+    };
+
+    const handleClosePopup = () => {
+        setPopupOpen(false);
+    };
+
   AOS.init({
     duration: 500,
     easing: 'ease-in-out',
@@ -38,7 +50,8 @@ const About = () => {
                mollitia. Ullam adipisci quibusdam harum    Ullam adipisci quibusdam harum!
             </span>
             <div>
-              <button className='button btn-about'>Let's have a chat</button>
+              <button className='button btn-about' onClick={togglePopup}>Let's have a chat</button>
+              {isPopupOpen && <PopupContact onClose={handleClosePopup} />}
             </div>
           </div>
         </div>
