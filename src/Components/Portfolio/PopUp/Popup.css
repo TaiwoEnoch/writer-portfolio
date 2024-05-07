@@ -23,6 +23,11 @@
   z-index: 100; /* Ensure it's above the backdrop */
 }
 
+.special-button-cancel {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
 .popup--cancel {
   position: absolute;
   top: 10px;
