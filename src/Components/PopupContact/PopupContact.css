@@ -4,17 +4,28 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.92); /* Semi-transparent black */
+  z-index: 99; /* Increase z-index to ensure it's above the popup content */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .contact-popup-inner {
-  background-color: white;
+  position: relative; /* Ensure that the cancel button respects the container */
+  background-color: #f9f9f9; /* Custom background color */
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 80%;
+  overflow-y: auto; /* Enable scrolling within the popup */
+  z-index: 100; /* Ensure it's above the backdrop */
+  border-radius: 20px;
+}
+
+.special-popup-cancel {
+  margin-bottom: 50px;
 }
 
 .close-btn {
@@ -23,27 +34,57 @@
   right: 10px;
   background: none;
   border: none;
+  cursor: pointer;
   font-size: 20px;
-  cursor: pointer;
+  color: #fff;
+  background: rgb(16, 182, 243);
+  padding: 5px 10px;
+  border-radius: 50%;
+
+  z-index: 101; /* Ensure it's above the popup content */
 }
 
-.btn-container {
-  margin-top: 10px;
-  text-align: center;
+.input--container {
+  padding: 20px;
 }
 
-.submit-btn,
-.cancel-btn {
-  padding: 8px 20px;
-  margin-right: 10px;
-  border: none;
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #007bff;
-  color: white;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.btn_container {
+  background-color: #201e1e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
   font-size: 16px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.cancel-btn {
-  background-color: #dc3545;
+.btn_container:hover {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  /* .close-btn {
+    top: 50px;
+    right: 10px;
+  } */
 }
