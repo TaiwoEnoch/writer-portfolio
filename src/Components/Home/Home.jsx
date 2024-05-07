@@ -33,12 +33,13 @@ const Home = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat omnis quia ex cumque commodi provident sunt. Suscipit neque delectus dignissimos qui quo expedita ut ullam reprehenderit sunt repudiandae saepe excepturi nostrum libero ab, beatae enim accusantium commodi officia perspiciatis.
                     </p>
                     <button className='button' onClick={togglePopup}>Let's have a chat</button>
-                    {isPopupOpen && <PopupContact onClose={handleClosePopup} />}
+                    
                 </div>
                 <div className='HomeImage'>
                     <img className='my-image' src={myImage} alt="HomePhoto" />
                 </div>
             </div>
+            {isPopupOpen && <PopupContact onClose={handleClosePopup} />}
         </section>
     );
 }
