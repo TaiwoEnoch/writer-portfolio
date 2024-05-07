@@ -25,7 +25,10 @@ const Popup = ({ project, onCancel }) => {
       {isVisible && (
         <div className='popup__backdrop' onClick={handleBackdropClick}>
           <section className='popup__container'>
-            <button className='popup--cancel' onClick={onCancel}>X</button>
+            <div className='special-button-cancel'>
+              <button className='popup--cancel' onClick={onCancel}>X</button>
+            </div>
+            
             <div className='popup--main--container'>
               <div className='pop--div'>
                 <h1 className='popup--heading'>{project.title}</h1>
