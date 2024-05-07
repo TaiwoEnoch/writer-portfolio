@@ -7,6 +7,7 @@ import Service from './Components/Service/Service';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Contact from './Components/Contact/Contact';
+// import PopupContact from './Components/PopupContact/PopupContact';
 
   
 
@@ -36,6 +37,9 @@ function App() {
         <div>
           <Contact />
         </div>
+        {/* <div>
+          <PopupContact/>
+        </div> */}
       </div>
     </Router>
   );
