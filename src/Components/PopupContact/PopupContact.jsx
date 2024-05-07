@@ -39,10 +39,13 @@ const PopupContact = ({ onClose }) => {
   };
 
   return (
-    <section className="contact-popup">
+    <div className="contact-popup">
       <div className="contact-popup-inner">
+        <div className='special-popup-cancel'>
         <button className="close-btn" onClick={onClose}>X</button>
-        <form className="main--form" onSubmit={handleSubmit} ref={formRef}>
+        </div>
+        
+        <form onSubmit={handleSubmit} ref={formRef}>
           <div className='input--container'>
             {successMessage && <p className="success-message">{successMessage}</p>}
             {errorMessage && <p className="error-message">{errorMessage}</p>}
@@ -76,7 +79,6 @@ const PopupContact = ({ onClose }) => {
                 onChange={(e) => setMessage(e.target.value)}
                 required
               />
-
             </div>
             <button
               type="submit"
@@ -87,7 +89,7 @@ const PopupContact = ({ onClose }) => {
           </div>
         </form>
       </div>
-    </section>
+    </div>
   );
 };
 
