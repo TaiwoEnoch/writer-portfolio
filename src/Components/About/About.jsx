@@ -51,12 +51,12 @@ const About = () => {
             </span>
             <div>
               <button className='button btn-about' onClick={togglePopup}>Let's have a chat</button>
-              {isPopupOpen && <PopupContact onClose={handleClosePopup} />}
+
             </div>
           </div>
         </div>
       </div>
-      
+      {isPopupOpen && <PopupContact onClose={handleClosePopup} />}
     </section>
   )
 }
