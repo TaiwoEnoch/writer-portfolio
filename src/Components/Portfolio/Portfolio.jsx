@@ -1,5 +1,3 @@
-// Portfolio.js
-
 import React, { useState } from 'react';
 import './portfolio.css';
 import showcase from './index';
@@ -21,16 +19,16 @@ const Portfolio = () => {
       </div>
       <div className='port--container'>
         {showcase.map(item => (
-          <div className='port--main' key={item.id} onClick={() => handleClick(item.id)}> {/* Add onClick event */}
-            <div className='port--div'>
-              <div>
+          <div className='port--main' key={item.id}>
+            <div className='port--div' onClick={() => handleClick(item.id)}>
+              <div className="image--container">
                 <img src={item.img} alt={item.title} />
+                <div className='work--intro'>{item.intro}</div>
               </div>
             </div>
           </div>
         ))}
       </div>
-      {/* Conditional rendering of Popup component */}
       {selectedProject && <Popup project={selectedProject} onCancel={() => setSelectedProject(null)} />}
     </section>
   );

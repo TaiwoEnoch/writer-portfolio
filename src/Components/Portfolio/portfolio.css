@@ -1,9 +1,11 @@
 .port--container {
-  margin: auto;
   display: flex;
-  max-width: 90vw;
   flex-wrap: wrap;
-  justify-content: space-evenly
+  justify-content: center;
+}
+
+.port--main {
+  margin: 10px;
 }
 
 .port--heading {
@@ -12,6 +14,40 @@
   text-align: center;
   margin-bottom: 3rem;
   padding: 1rem;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 24px;
   border-radius: 25px;
+}
+
+.image--container {
+  position: relative;
+}
+
+.work--intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #10215ad2;
+  color: white;
+  padding: 15px;
+  width: fit-content;
+  height: 100%;
+  text-align: center;
+  transform: translateY(-100%);
+  transition: transform 1.5s ease;
+  box-sizing: border-box;
+  opacity: 0;
+  border-radius: 50px;
+  pointer-events: none; /* Ensures the intro text doesn't affect pointer interactions */
+}
+
+.image--container:hover .work--intro {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image--container img {
+  display: block;
+  width: 100%; /* Ensures the image takes up the entire width of its container */
+  height: auto;
 }
