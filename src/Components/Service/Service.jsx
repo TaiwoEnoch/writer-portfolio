@@ -1,28 +1,28 @@
-import React from 'react'
-import Modal from './Modal';
-import services from '../constants/index';
-
+import React from 'react';
 import './services.css';
+import service from './index';
 
-const Services = () => {
+const Service = () => {
   return (
-    <section id='service'>
-      <div>
-      <h1 className='service-heading'>Services</h1>
-      <div className='main--service'>
-        {services.map(service => (
-          <Modal
-            key={service.id}
-            title={service.title}
-            image={service.image}
-            headshot={service.headshot}
-            description={service.description}
-          />
-        ))}
+    <section id='section--container'>
+      <div className='service--title'>
+        <h1>Services</h1>
       </div>
+      <div className='map--container'>
+        {service.map(item => (
+          <div className="service-card" key={item.id}>
+            <div className="image--container">
+              <img src={item.image} alt="" />
+              <div className="service--content">
+                <h2>{item.intro[0].title}</h2>
+                <p>{item.intro[0].desc}</p>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   )
 }
 
-export default Services;
+export default Service;
