@@ -7,6 +7,9 @@ const showcase = [
     briefContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, doloribus quia. Corporis voluptate fugit facilis iure sapiente, totam ipsam dolorem dolor eius eligendi mollitia magni deserunt quis ex distinctio dolorum inventore cumque voluptatem quibusdam blanditiis. Deserunt aliquid necessitatibus, obcaecati odit cupiditate architecto soluta tempore quo natus illum amet accusamus excepturi.",
     live: 'url',
     img: github,
+    intro:[
+      "A digital platform that assist farmers in managing various aspects of their agricultural operations and other related activities. FIEMS typically provide farmers with tools and features that help them make informed decisions, optimize their resources, and improve their productivity and profitability"
+    ]
   },
   {
     id: 2,
@@ -14,6 +17,9 @@ const showcase = [
     briefContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, doloribus quia. Corporis voluptate fugit facilis iure sapiente, totam ipsam dolorem dolor eius eligendi mollitia magni deserunt quis ex distinctio dolorum inventore cumque voluptatem quibusdam blanditiis. Deserunt aliquid necessitatibus, obcaecati odit cupiditate architecto soluta tempore quo natus illum amet accusamus excepturi.",
     live: 'url',
     img: github,
+    intro:[
+      "A digital platform that assist farmers in managing various aspects of their agricultural operations and other related activities. FIEMS typically provide farmers with tools and features that help them make informed decisions, optimize their resources, and improve their productivity and profitability"
+    ]
   },
   {
     id: 3,
@@ -21,6 +27,9 @@ const showcase = [
     briefContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, doloribus quia. Corporis voluptate fugit facilis iure sapiente, totam ipsam dolorem dolor eius eligendi mollitia magni deserunt quis ex distinctio dolorum inventore cumque voluptatem quibusdam blanditiis. Deserunt aliquid necessitatibus, obcaecati odit cupiditate architecto soluta tempore quo natus illum amet accusamus excepturi.",
     live: 'url',
     img: github,
+    intro:[
+      "A digital platform that assist farmers in managing various aspects of their agricultural operations and other related activities. FIEMS typically provide farmers with tools and features that help them make informed decisions, optimize their resources, and improve their productivity and profitability"
+    ]
   },
   {
     id: 4,
@@ -28,6 +37,9 @@ const showcase = [
     briefContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, doloribus quia. Corporis voluptate fugit facilis iure sapiente, totam ipsam dolorem dolor eius eligendi mollitia magni deserunt quis ex distinctio dolorum inventore cumque voluptatem quibusdam blanditiis. Deserunt aliquid necessitatibus, obcaecati odit cupiditate architecto soluta tempore quo natus illum amet accusamus excepturi.",
     live: 'url',
     img: github,
+    intro:[
+      "A digital platform that assist farmers in managing various aspects of their agricultural operations and other related activities. FIEMS typically provide farmers with tools and features that help them make informed decisions, optimize their resources, and improve their productivity and profitability"
+    ]
   },
   {
     id: 5,
@@ -35,6 +47,9 @@ const showcase = [
     briefContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, doloribus quia. Corporis voluptate fugit facilis iure sapiente, totam ipsam dolorem dolor eius eligendi mollitia magni deserunt quis ex distinctio dolorum inventore cumque voluptatem quibusdam blanditiis. Deserunt aliquid necessitatibus, obcaecati odit cupiditate architecto soluta tempore quo natus illum amet accusamus excepturi.",
     live: 'url',
     img: github,
+    intro:[
+      "A digital platform that assist farmers in managing various aspects of their agricultural operations and other related activities. FIEMS typically provide farmers with tools and features that help them make informed decisions, optimize their resources, and improve their productivity and profitability"
+    ]
   },
   {
     id: 6,
@@ -42,6 +57,9 @@ const showcase = [
     briefContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, doloribus quia. Corporis voluptate fugit facilis iure sapiente, totam ipsam dolorem dolor eius eligendi mollitia magni deserunt quis ex distinctio dolorum inventore cumque voluptatem quibusdam blanditiis. Deserunt aliquid necessitatibus, obcaecati odit cupiditate architecto soluta tempore quo natus illum amet accusamus excepturi.",
     link: 'url',
     img: github,
+    intro:[
+      "A digital platform that assist farmers in managing various aspects of their agricultural operations and other related activities. FIEMS typically provide farmers with tools and features that help them make informed decisions, optimize their resources, and improve their productivity and profitability"
+    ]
   },
 ]
 
