@@ -37,7 +37,7 @@
   transition: transform 1.5s ease;
   box-sizing: border-box;
   opacity: 0;
-  border-radius: 50px;
+  border-radius: 30px;
   pointer-events: none; /* Ensures the intro text doesn't affect pointer interactions */
 }
 
