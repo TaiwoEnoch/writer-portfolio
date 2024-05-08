@@ -17,8 +17,9 @@
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 900px;
+  max-width: 600px;
   width: 80%;
+  height: auto;
   overflow-y: auto; /* Enable scrolling within the popup */
   z-index: 100; /* Ensure it's above the backdrop */
   border-radius: 20px;

@@ -45,6 +45,7 @@
   transform: translateY(0);
   width: fit-content;
   height: 100%;
+  transition: transform 1s ease-in-out;
 }
 
 .service--content h2 {
@@ -54,13 +55,14 @@
 
 .service--content p {
   margin: 0;
+  padding-left: 3px;
 }
 
 .image--container img {
   display: block;
   width: fit-content;
   height: 100%;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 1.5s ease-in-out;
 }
 
 .image--container:hover img {
