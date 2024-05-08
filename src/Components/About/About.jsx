@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import stella from '../constants/stella.jpg';
+import stella from '../constants/about.jpg';
 
 import './about.css';
 import PopupContact from '../PopupContact/PopupContact';

@@ -15,7 +15,10 @@ const Modal = ({ title, image, headshot, description }) => {
         <h2 className='service--title'>{title}</h2>
         <img className='blogImg' src={image} alt="Service" />
         <p className='paragraph'>{showFullContent ? description : headshot}</p>
-        <button className='see-btn' onClick={toggleContent}>
+        <button 
+          className='see-btn'
+          onClick={toggleContent}
+        >
           {showFullContent ? 'See Less' : 'See More'}
         </button>
       </div>
